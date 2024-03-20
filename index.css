@@ -1,0 +1,39 @@
+.centro {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.centro button {
+  margin-top: 10px;
+}
+
+.pista {
+  width: 1200px;
+  height: 250px;
+  background-color: lightgrey;
+  background-repeat: no-repeat;
+  position: relative; /* Changed to relative */
+}
+
+.car {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+}
+
+.finish {
+  position: absolute;
+  background-color: yellowgreen;
+  width: 10px;
+  height: 250px;
+  right: 1;
+  top: 0;
+}
+
+#car1 { background-color: blue; }
+#car2 { background-color: brown; }
+#car3 { background-color: green; }
+#car4 { background-color: black; }
+#car5 { background-color: red; }
+#finish { background-color: yellowgreen; }
+

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F1 Race</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script> <!-- Adicione o script aqui para garantir que esteja carregado -->
+</head>
+<body onload="init()">
+    <div class="centro">
+        <h1>Iniciar Corrida <button onclick="startRace()">Clique Aqui</button></h1>
+        <h3>Aposta mínima R$10,00</h3>
+        <label for="aposta">Valor da Aposta:</label>
+        <input type="text" id="aposta" name="aposta" placeholder="Digite o valor da aposta">
+        <br>
+        <label for="carro">Escolha o carro:</label>
+        <select id="carro">
+            <option value="car1">Carro 1</option>
+            <option value="car2">Carro 2</option>
+            <option value="car3">Carro 3</option>
+            <option value="car4">Carro 4</option>
+            <option value="car5">Carro 5</option>
+        </select>
+        <label for="saldo">Saldo:</label>
+        <span id="saldo">R$ 100,00</span> <!-- Aqui exibiremos o saldo -->
+    </div>
+
+    <div class="pista">
+        <div id="car1" class="car"></div>
+        <div id="car2" class="car"></div>
+        <div id="car3" class="car"></div>
+        <div id="car4" class="car"></div>
+        <div id="car5" class="car"></div>
+        <div id="finish" class="finish"></div> <!-- Linha de chegada -->
+    </div>
+
+    <div id="resultado" class="resultado"></div> <!-- Aqui exibiremos o resultado da corrida -->
+</body>
+</html>
+
+
+
+
